@@ -2,11 +2,15 @@
 
 limit = 1000
 
-n = 1
-count = 0
-while n <= limit - 1:
-    if n % 3 == 0 or n % 5 == 0:
-        count += 1
-    n += 1
+sumn = 0
+n = 0
+while n <= limit - 3:
+    n += 3
+    sumn += n
+n = 0
+while n <= limit - 5:
+    n += 5
+    if n % 3 != 0:
+        sumn += n
 print "Sum of all the natural numbers below", limit, "that are multiples \
-of 3 or 5:", count
+of 3 or 5:", sumn
