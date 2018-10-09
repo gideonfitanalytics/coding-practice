@@ -1,7 +1,7 @@
 testcomponent = int(raw_input("Choose An Option\n\n\
-1) check for a given number whether or not it is prime\
-2) test option 2\
-\n: "))
+1) check for a given number whether or not it is prime\n\
+2) test option 2\n\
+: "))
 if testcomponent == 1:
     isprime = 0
     number = int(raw_input("enter a number you would like to check\
