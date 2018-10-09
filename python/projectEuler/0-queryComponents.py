@@ -17,10 +17,6 @@ if testcomponent == 1:
                 for n in range(4, number / 2 + 1):
                     if number % n == 0:
                         isprime = 0
-            else:
-                print "error: unexpected else"
-    else:
-        isprime = 0
     if isprime == 0:
         print "the given number is not prime"
     else:
